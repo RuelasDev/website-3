@@ -1,0 +1,251 @@
+@media screen and (max-width: 1000px) {
+  
+  /* HEADER */
+  
+  .main-nav li {
+    padding: 0 10px;
+  }
+  
+
+  
+  /* ABOUT */
+  
+  .about-flex {
+    flex-direction: column;
+  }
+  
+  .about-flex p {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .tattoo-shop-pic {
+    margin: auto;
+    height: auto;
+  }
+  
+/* ARTISTS */
+  .artist-flex {
+    flex-direction: column;
+  }
+  
+  /* PIERCING */
+  
+  
+  .piercing-flex {
+    flex-direction: column;
+  }
+  
+  .piercer-pic {
+    margin: auto;
+    width: 100%;
+  }
+  
+  .piercing-flex p {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    padding-top: 20px;
+  }
+  
+  /* GALLERY */
+  
+  .slider-container {
+  width: 80%;
+   margin: auto;
+}
+  
+  /* CONTACT */
+  
+  .contact-flex {
+    flex-direction: column;
+  }
+  
+  .contact-container {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .contact-header {
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  
+  .map { 
+    padding: 0;
+    max-width: 70%;
+    margin: auto;
+    
+  }
+  
+}
+
+
+@media screen and (max-width: 730px) {
+  
+  /* HEADER */
+  
+  header {
+    background-position: center;
+  }
+  
+  .main-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .main-nav span {
+    padding: 0;
+    margin: auto;
+  }
+  
+  .main-nav ul {
+    padding: 10px 0;
+    margin: auto;
+  }
+  
+   .tattoo-shop-pic  {
+   max-width: 90%;
+    
+  }
+  
+  .hero-header {
+    width: 80%;
+  }
+  
+  /* GALLERY */
+  
+  .slider-container {
+  width: 80%;
+   margin: auto;
+}
+  
+  /* CONTACT */
+  
+  .map {
+    max-width: 90%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  
+  
+  /* MENU */
+  
+  .menu {
+    display: block;
+  }
+  
+   .main-nav ul {
+    padding: 0;
+  }
+  
+  .main-nav li {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .closed{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+  }
+  
+  .open {
+    height: 215px;
+  }
+  
+  /* HEADER */
+  
+  .hero-text {
+    padding-top: 150px;
+  }
+  
+  .hero-header {
+    width: 80%;
+  }
+  
+  .about-flex p {
+    padding: 0;
+  }
+  
+  .main-nav {
+    flex-direction: column;
+    position: absolute; 
+  }
+  
+  /* ABOUT */
+  
+  .about-flex p {
+    padding-bottom: 20px;
+  }
+  
+ .tattoo-shop-pic  {
+    min-width: 300px;
+    height: 200px;
+  }
+  
+  /* PIERCING */
+  
+  .piercer-pic {
+  width: 300px;
+    height: 200px;
+}
+  
+  /* GALLERY */
+  
+ 
+  .slider-container {
+  width: 90%;
+   margin: auto;
+}
+  
+  /* CONTACT */
+  
+  .map {
+    max-width: 90%;
+  }
+ 
+}
+  
+@media screen and (min-width: 1000px) {
+   
+    .main-nav li:hover {
+  color: lightslategrey;
+  border-bottom: 2px solid white;
+   }
+   
+  }
+
+@media screen and (orientation:landscape) and (max-width: 800px) {
+  .main-nav {
+    position: absolute;
+  }
+}
+
+/* IE STYLES */
+
+@media screen and (max-width: 1000px) and (-ms-high-contrast: none), (-ms-high-contrast: active)  {
+  
+  .tattoo-shop-pic {
+    width: 100%; /* IE11 center fix */
+    max-height: 250px; 
+  }
+  
+  .map {
+    width: 100%; /* IE11 image would span across screen, this is my solution to fix problem */
+    height: 100%; /* IE11 image would span across screen, this is my solution to fix problem */
+  }
+}
+
